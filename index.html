@@ -1,0 +1,351 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>Portfolio | Tabish</title>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+        <link rel="stylesheet" href="assets/css/main.css" />
+        <link href="https://fonts.googleapis.com/css?family=Karla&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Ubuntu&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Playfair+Display&display=swap" rel="stylesheet">
+        <noscript>
+        <link rel="stylesheet" href="assets/css/noscript.css" />
+        </noscript>
+        <style>
+        .techflair{
+        font-size: 0.8em;
+        padding-left: 13px;
+        padding-right:13px;
+        padding-top: 2px;
+        padding-bottom: 2px;
+        border-radius: 100px;
+        }
+        @import url(https://fonts.googleapis.com/css?family=Lato);
+        @import url(https://fonts.googleapis.com/css?family=Oswald);
+        @import url(https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css);
+        .snip1559 {
+        font-family: 'Lato', Arial, sans-serif;
+        position: relative;
+        display: inline-block;
+        overflow: hidden;
+        margin: 10px;
+        min-width: 250px;
+        max-width: 310px;
+        width: 100%;
+        background-color: #ffffff;
+        color: #2B2B2B;
+        text-align: center;
+        font-size: 16px;
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+        }
+        .snip1559 * {
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        }
+        .snip1559 .profile-image {
+        padding: 15% 10% 0;
+        }
+        .snip1559 .profile-image img {
+        max-width: 100%;
+        vertical-align: top;
+        position: relative;
+        border-radius: 50%;
+        max-width: 40%;
+        }
+        .snip1559 figcaption {
+        padding: 5% 10% 15%;
+        }
+        .snip1559 .icons i {
+        color: #999;
+        display: inline-block;
+        margin-right: 5px;
+        font-size: 1.5em;
+        }
+        .snip1559 .icons i:hover {
+        color: #555;
+        }
+        .snip1559 .icons i a {
+        text-decoration: none;
+        }
+        /* Tooltip container */
+        .tooltip {
+        position: relative;
+        display: inline-block;
+        }
+        /* Tooltip text */
+        .tooltip .tooltiptext {
+        visibility: hidden;
+        width: 120px;
+        background-color: black;
+        color: #fff;
+        text-align: center;
+        padding: 5px 0;
+        border-radius: 6px;
+        /* Position the tooltip text - see examples below! */
+        position: absolute;
+        z-index: 1;
+        }
+        /* Show the tooltip text when you mouse over the tooltip container */
+        .tooltip:hover .tooltiptext {
+        visibility: visible;
+        }
+        </style>
+    </head>
+    <body class="is-preload">
+        <!-- Wrapper-->
+        <div id="wrapper">
+            <!-- Nav -->
+            <nav id="nav">  <a href="#" class="icon solid fa-home"><span>Home</span></a>
+            <a href="#work" class="icon solid fa-folder"><span>Skills</span></a>
+            <a href="#projects" class="icon solid fa-tools"><span>Projects</span></a>
+            <a href="#contact" class="icon solid fa-envelope"><span>Contact</span></a>
+            <a href="#resume" class="icon solid fa-file-download" onclick="loadResume()"><span>Resume</span></a>
+        </nav>
+        <!-- Main -->
+        <div id="main">
+            <!-- Me -->
+            <article id="home" class="panel intro">
+                <header>
+                    <h2>&#128640; Welcome!</h2>
+                    <p style="font-size: 0.95em">Software Developer | <a href="#" style="text-decoration: none;color:#e58353" onclick="goHome()">
+                        Resume
+                    </a>
+                </p>
+                <div id="mypeep">
+                    <p style="font-size: 0.85em; line-height: 125%; text-align; font-weight:normal; color: #999999">My name is <b>Tabish</b> and I am a <b>Computer Science Undergrad</b> residing in the valley of Kashmir. Currently I am a final year student in the <b>National Institute of Technology, Srinagar</b>.</p>
+                    <p style="font-size: 0.85em; line-height: 125%; text-align; font-weight:normal; color: #999999">Writing code is highly engrossing and a major creative outlet for me and I have been doing the same for over 3 years. I am a huge <b>Python</b> enthusiast and <b>I love all things Python</b>. I have worked and prefer working on <b>Full Stack Development</b>, <b>Cryptographic Systems</b>, <b>Network Design</b>, <b>Blockchain</b> and <b>Machine Learning</b> related projects. In my free time, I enjoy graphic design, cooking and movies.    <a href="#" style="text-decoration: none;color:#e58353" onclick="goHome()">
+                        Read More...
+                    </a>
+                </p>
+            </div>
+        </p>
+    </header>
+    <a href="#work" class="jumplink pic">   <span class="arrow icon solid fa-chevron-right"><span>See my work</span></span>
+    <img src="images/me.jpg" alt="" />
+</a>
+</article>
+<!-- Skills -->
+<article id="work" class="panel">
+<header style="text-align: center;">
+    <h2>⚒️ Skills</h2>
+</header>
+<div align="center" style="font-family: 'Lato', sans-serif; font-size: 0.8em; margin-bottom:20px; text-transform: uppercase; letter-spacing: 2.5px; line-height:normal;">Software Dev&nbsp; &nbsp;|&nbsp; &nbsp;Full Stack Dev&nbsp; &nbsp;|&nbsp; &nbsp;Networks&nbsp; &nbsp;|&nbsp; &nbsp;Cryptography</div>
+<section>
+    <div class="row">
+        <div class="col-2 col-2-medium col-2-small" style="text-align: center;">
+            <a href="#" class="image fit">
+                <img src="images/python.png" alt="">
+            </a>
+            Python
+        </div>
+        <div class="col-2 col-2-medium col-2-small" style="text-align: center;">
+            <a href="#" class="image fit">
+                <img src="images/cpp.png" alt="">
+            </a>
+            C++
+        </div>
+        <div class="col-2 col-2-medium col-2-small" style="text-align: center;">
+            <a href="#" class="image fit">
+                <img src="images/sql.png" alt="">
+            </a>
+            SQL
+        </div>
+        <div class="col-2 col-2-medium col-2-small" style="text-align: center;">
+            <a href="#" class="image fit">
+                <img src="images/html.png" alt="">
+            </a>
+            HTML
+        </div>
+        <div class="col-2 col-2-medium col-2-small" style="text-align: center;">
+            <a href="#" class="image fit">
+                <img src="images/js.png" alt="">
+            </a>
+            JS
+        </div>
+        <div class="col-2 col-2-medium col-2-small" style="text-align: center;">
+            <a href="#" class="image fit">
+                <img src="images/css.png" alt="">
+            </a>
+            CSS
+        </div>
+    </div>
+    <hr>
+    <div class="row">
+        <div class="col-1 col-1-medium col-1-small"></div>
+        <div class="col-10 col-10-medium col-10-small" style="padding-left: 20px; padding-right: 20px;">
+            <h7 style="color:#e58353; font-weight: bold;">Python</h7>
+            <p style="font-size: 0.85em; line-height: 125%; text-align:justify; font-weight:normal; color: #999999; font-family:Roboto;">
+                The first language I learnt still happens to be my <b>strongly preferred one</b> for most tasks. I have worked extensively in the language having developed <b>mathematical</b>, <b>automation</b>, <b>web-scraping</b>, <b>simulation</b>, <b>machine learning</b> and <b>blockchain</b> related scripts in Python. Further, I have different <b>Cryptography</b>, <b>Web Design</b> and <b>Network Design</b> related projects written in Python. I prefer Python for solving algorithmic problems and am quite biased to its use in any Competitive Programming I do.
+            </p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-1 col-1-medium col-1-small"></div>
+        <div class="col-10 col-10-medium col-10-small" style="padding-left: 20px; padding-right: 20px;">
+            <h7 style="color:#e58353; font-weight: bold;">C++</h7>
+            <p style="font-size: 0.85em; line-height: 125%; text-align:justify; font-weight:normal; color: #999999; font-family:Roboto;">
+                C++ was the primary language in three of the funtamental Computer Science courses that I undertook, namely - <i>CSE 301</i> <b>Object Oriented Programming</b>, <i>CSE 502</i> <b>Design & Analysis of Algorithms</b>, <i>CSE 401</i> <b>Data Structures</b>. I have used C and C++ extensively to learn the design, implementation and applications of <b>Data Structures</b> and learning  <b>Object Oriented Design Principles</b>. As such, I have a fairly strong hold on writing C++ code.
+            </p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-1 col-1-medium col-1-small"></div>
+        <div class="col-10 col-10-medium col-10-small" style="padding-left: 20px; padding-right: 20px;">
+            <h7 style="color:#e58353; font-weight: bold;">HTML, CSS, JS</h7>
+            <p style="font-size: 0.85em; line-height: 125%; text-align:justify; font-weight:normal; color: #999999; font-family:Roboto;">
+                Serving as my <b>introduction to the field of Computer Science</b>, I am quite handy with designing functional and responsive websites using these languages. Further, I am the <b>designer</b> and <b>current incharge</b> of the official organization website for <a href="www.risewithrise.com" style="text-decoration: none;">RiSE Instution, Kashmir</a>. Front end design was done using <b>HTML</b>,<b>CSS</b> and <b>Bootstrap</b>. Some backend functionality is provided thorugh <b>JavaScript</b> Scripts. The website is a lightweight, responsive and simple. Site is live on <a href="www.risewithrise.com" style="text-decoration: none;">www.risewithrise.com</a>.
+            </p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-1 col-1-medium col-1-small"></div>
+        <div class="col-10 col-10-medium col-10-small" style="padding-left: 20px; padding-right: 20px;">
+            <h7 style="color:#e58353; font-weight: bold;">SQL</h7>
+            <p style="font-size: 0.85em; line-height: 125%; text-align:justify; font-weight:normal; color: #999999; font-family:Roboto;">
+                I was introduced to <b>Database Management System</b> concepts through <b>MySQL</b>. I have since gotten familiar with <b>PostgreSQL</b> which happens to be my <b>preferred SQL variant</b> for database design due to its <b>scalable design</b>, <b>Open Source Code</b> and <b>Vibrant Community</b>. I have used <b>PostgreSQL</b> with <b>Python</b> in a few personal projects (using the PostgreSQL driver <b>psycopg</b>). I am currently looking at <b>NoSQL</b> alternatives, such as <b>MongoDB</b> for Database Design.
+            </p>
+        </div>
+    </div>
+    <hr style="margin-top: 12px">
+    <div class="row">
+        <div class="col-6 col-6-medium col-6-small" style="padding-left: 20px; text-align:right; padding-right: 20px; font-size: 0.85em; line-height: 125%; font-weight:normal; color: #999999; font-family:Roboto;">
+            <h7 style="color:#e58353; font-weight: bold; font-size: 1.2em">Frameworks <span style="font-size: 1.5em">🔬</span></h7>
+            <ul dir='rtl' style="margin-top: 2%">
+                <li><b>Django</b>: for Full Stack Development</li>
+                <li><b>Flask</b>: for smaller Web based apps</li>
+                <li><b>Git</b>: For DVCS & Collaboration</li>
+                <li><b>Selenium</b>, <b>BeautifulSoup</b></li>
+                <li><b>Django REST framework</b></li>
+                <li><b>Restful API</b> Services</li>
+            </ul>
+        </div>
+        <div class="col-6 col-6-medium col-6-small" style="padding-left: 20px; padding-right: 20px; font-size: 0.85em; line-height: 125%; font-weight:normal; color: #999999; font-family:Roboto;">
+            <h7 style="color:#e58353; font-weight: bold; font-size: 1.2em">&nbsp;&nbsp;&nbsp; <span style="font-size: 1.5em">💻</span> Platforms/Tools</h7>
+            <ul style="margin-top: 2%">
+                <li><b>Windows 10</b> <i>(Primary)</i></li>
+                <li><b>Ubuntu 18.04</b> <i>(Secondary)</i></li>
+                <li>JetBrains <b>PyCharm</b>, <b>Spyder</b></li>
+                <li><b>Jupyter Notebook</b></li>
+                <li><b>Blender 3D</b>, <b>Photoshop</b>, Illustrator</li>
+                <li><b>Sublime Text</b></li>
+            </ul>
+        </div>
+    </div>
+</section>
+</article>
+<!-- Projects -->
+<article id="projects" class="panel">
+<header>
+    <h2>⌚️ Projects</h2>
+</header>
+<section>
+
+    <div style="border: 2px solid #fafafa; border-radius: 20px; background-color: #fafafa; box-shadow: 5px 5px 5px #f0f0f0;">
+        <table style="font-size: 0.85em; line-height: 135%; font-weight:normal; color: #999999; font-family:Roboto; ">
+            <tr style="border-bottom: 1px solid #c4b0a1;">
+                <td colspan="2" style="text-align: left; padding-right:10px; padding-left:10px; padding-top: 30px; padding-bottom: 9px; color: #444444; font-family: 'Ubuntu', serif; font-weight: 600; font-size: 1.7em; letter-spacing: 1px;">
+                    Proactive RSA Signatures
+                </td>
+            </tr>
+            <tr style="border-bottom: 1px solid #c4b0a1;">
+                <td style=" padding-right:10px; padding-left:10px; padding-top: 3px;  padding-bottom:3px; font-size: 0.85em; color:#e58353; font-family: Ubuntu">
+                    A proactive and robust implementation of the RSA Signature Scheme employing FDH
+                </td>
+                <td style=" padding-right:10px; padding-left:10px; text-align: right; padding-bottom:3px; font-size: 0.85em">
+                    <a href="#" style="text-decoration: none;">
+                        View on Github
+                    </a>
+                    <a href="#" class="icon brands fa-github" style="font-size: 1.2em; margin-top: 10px"></a>
+                </td>
+            </tr>
+            <tr>
+                <td style="text-align: left; padding-left:45px; padding-top:15px;">
+                    <span class="techflair" style="background-color:#faafd2; color: #ffffff">Python</span>
+                    <span class="techflair" style="background-color:#e3a6da; color: #ffffff">Django</span>
+                    <span class="techflair" style="background-color:#a3a9f0; color: #ffffff">PostgreSQL</span>
+                    <span class="techflair" style="background-color:#b2d49d; color: #ffffff">Flask</span>
+                    <span class="techflair" style="background-color:#e8c4a7; color: #ffffff">C++</span>
+                </td>
+                <td style="text-align: right; padding-right:45px; ">
+                    <span class="techflair" style="padding-right: 20px; padding-left: 20px; background-color:#e8c4a7; color: #ffffff">Cryptography</span>
+                </td>
+            </tr>
+            <tr style="border-bottom: 1px solid #e8e2df;">
+                <td colspan="2" style="text-align: justify; padding-right:45px; padding-left:45px; padding-top:15px; padding-bottom:15px; color: #888888;">
+                    A general Cryptographic scheme that can be used for <b>Encryption of Keys</b> as well as for <b>File Signatures</b> while providing
+                    a <b>distributed</b> nature to the encryption. Employing a RSA, <b>threshold-based system</b> to distribute the secret key in a proactive
+                    and verifiable manner Allows encrypting sensitive encryption related data, such as private keys, and imposing a distributed
+                    nature by creating shares of the key. <b>Proactive nature</b> updates the secret values after regular intervals so that even in the
+                    case of a breach, adversary may not be able to acquire complete information in time. Implementations are based on various
+                    Research papers by <i>Shamir, Tal Rabin, et.al</i>.
+                </td>
+            </tr>
+        </table>
+    </div>
+
+</section>
+</article>
+<!-- Contact -->
+<article id="contact" class="panel">
+<header>
+    <h2>📬 Contact Me</h2>
+</header>
+<form action="https://formspree.io/taabishm2@gmail.com" method="POST">
+    <div>
+        <div class="row">
+            <div class="col-6 col-12-medium">
+                <input type="text" name="name" placeholder="Name" />
+            </div>
+            <div class="col-6 col-12-medium">
+                <input type="text" name="email" placeholder="Email" />
+            </div>
+            <div class="col-12">
+                <input type="text" name="subject" placeholder="Subject" />
+            </div>
+            <div class="col-12">
+                <textarea name="message" placeholder="Message" rows="6"></textarea>
+            </div>
+            <div class="col-12">
+                <input type="submit" value="Send" />
+            </div>
+        </div>
+    </div>
+</form>
+</article>
+<!--Resume-->
+<article id="resume" class="panel">
+<center><a href='https://www.docdroid.net/file/download/ov6hftP/tabish.pdf'> <img src='images/getresume.png' style='width:230px'> </a></center>
+</article>
+</div>
+<!-- Footer -->
+<div id="footer">
+<p style="letter-spacing: 4px">
+<a href="#" class="icon brands fa-github" style="font-size: 1.65em"></a>
+<a href="#" class="icon brands fa-linkedin" style="font-size: 1.65em"></a>
+<a href="#" class="icon brands fa-instagram" style="font-size: 1.65em"></a> <span style="letter-spacing: 1.5px; font-weight: 100;">&copytaabishm2</span>
+</p>
+</div>
+</div>
+<!-- Scripts -->
+<script>
+function readMore()
+{
+document.getElementById("mypeep").innerHTML = "<p style='font-size: 0.85em; line-height: 125%; text-align; font-weight:normal; color: #999999'> My name is <b>Tabish</b> and I am a <b>Computer Science Undergrad</b> residing in the valley of Kashmir. Currently I am a final year student in the <b>National Institute of Technology, Srinagar</b>. </p><p style='font-size: 0.85em; line-height: 125%; text-align; font-weight:normal; color: #999999'>Writing code is highly engrossing and a major creative outlet for me and I have been doing the same for over 3 years. I am a huge <b>Python</b> enthusiast and <b>I love all things Python</b>. I have worked and prefer working on <b>Full Stack Development</b>, <b>Cryptographic Systems</b>, <b>Network Design</b>, <b>Blockchain</b> and <b>Machine Learning</b> related projects. In my free time, I enjoy graphic design, cooking and movies.<a href='#' style='text-decoration: none;color:#e58353' onclick='goHome()'> Read More...</a></p>";
+}
+function goHome()
+{
+document.getElementById("mypeep").innerHTML = "<p style='font-size: 0.85em; line-height: 125%; text-align; font-weight:normal; color: #999999'>I have been programming in <b>Python since 2015</b> and have experience in <b>C++</b>, <b>C</b> and some <b>Java</b>. In addition to developing useful scripts and packages, I am also experienced in front and back-end web design using <b>HTML5</b>, <b>CSS3</b>, <b>PostgreSQL</b> and Pythonic frameworks such as <b>Django</b> and <b>Flask</b>. In my most recent internship at <b>IISc Banglore</b>, I worked on developing secure <b>File Encryption & Signature schemes</b> based on the RSA Model. I have been teaching myself to apply <b>Machine Learning</b> algorithms to various problems to help in developing some promising projects in the future.<a href='#' style='text-decoration: none;color:#e58353' onclick='readMore()'> Back...</a></p>";
+}
+function loadResume()
+{
+document.getElementById("resume").innerHTML = " <center><a href='https://www.docdroid.net/file/download/ov6hftP/tabish.pdf'> <img src='images/getresume.png' style='width:230px'> </a></center> <embed src='https://drive.google.com/viewerng/viewer?embedded=true&url=https://www.docdroid.net/file/download/ov6hftP/tabish.pdf' width='100%' height='375'>";
+}
+</script>
+<script src="assets/js/jquery.min.js"></script>
+<script src="assets/js/browser.min.js"></script>
+<script src="assets/js/breakpoints.min.js"></script>
+<script src="assets/js/util.js"></script>
+<script src="assets/js/main.js"></script>
+</body>
+</html>
